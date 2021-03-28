@@ -5,7 +5,7 @@ const Details = () => {
   return (
     <Fragment>
       <h1>Details Page</h1>
-      <Link href="/index">Return</Link>
+      <Link href="/">Return</Link>
     </Fragment>
   );
 };

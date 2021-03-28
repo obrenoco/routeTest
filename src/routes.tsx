@@ -14,7 +14,6 @@ export const Routes = () => {
         <Router history={history} notFound={Route404}>
           <Route path="/" component={Home} />
           <Route path="/details" component={() => <Details />} />
-          <Route path="/index" component={() => <Home />} />
         </Router>
       </Suspense>
     </StrictMode>
